@@ -1,0 +1,15 @@
+table {
+    border-spacing: 0;
+}
+
+td {
+    width: 80px;
+}
+
+tr:first-child td{
+    font-weight: bold;
+}
+
+tr:nth-child(2) td {
+    background-color: lightgray;
+}
